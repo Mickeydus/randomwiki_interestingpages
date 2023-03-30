@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Random Wikipedia Page",
+    "version": "1.0",
+    "description": "Open a random Wikipedia page about restaurant chains or weird stories in English or Dutch",
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://en.wikipedia.org/*",
+      "https://nl.wikipedia.org/*"
+    ]
+  }
+  
